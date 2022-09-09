@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <title>Task 1. Lukyanenko Alla 21/1</title>
+</head>
+<body>
+    <h1>My first task in html</h1>
+    <h2>List of examples</h2>
+    <ol>
+        <li><a href="http://example.com/">Example1</a></li>
+        <li><a href="https://example.com/">Example2</a></li>
+        <li><a href="ftp://example.com/">Example2</a></li>
+        <li><a href="ftp://example.com/user:123@example.com">Example4</a></li>
+        <li><a href="https://example.com/page#about">Example5</a></li>
+        <li><a href="#about">Example6</a></li>
+        <li><a href="https://someshop.ru/catalog/phone?page=1&perpage=20">Example6</a></li>
+        <li>Example7
+            <ul>
+                <li><a href="#about" title="Read info">About this page</a></li>
+                <li><a href="#creator" title="Nickname and id">Creator of this page</a></li>
+                <li><a href="#contacts" title="Email and phone number">Contacts </a></li>
+            </ul>
+        </li>
+        <li><a>http://example.com/ (Example9)</a></li>
+        <li><a href="">Example10</a></li>
+        <li><a href="https://example.ru" rel="nofollow">Example11</a></li>
+        <li><a href="https://example.ru" rel="noindex">Example12</a></li>
+        <li><p>If you want to go to example page click <a href="https://example.ru">here</a> (Example13)</p></li>
+        <li>
+            <p><a href="shttps://example.ru"><img src="https://i.ytimg.com/vi/z5tEAmdULJY/maxresdefault.jpg" width="50" 
+                height="30" title="Example14"></a></p>
+        </li>
+        <li>Example15
+            <map id="Nav" name="Nav">
+                <area shape="circle" coords="113,24,211" alt="1" href="https://example.ru">
+                <area shape="rect" coords="210,24,233,100" alt="2" href="http://example.ru">
+               </map>
+        </li>
+        <li><a href="page">Example16</a></li>
+        <li><a href="about/page">Example17</a></li>
+        <li><a href="./page">Example18</a></li>
+        <li><a href="../page">Example19</a></li>
+        <li><a href="/">Example20</a></li>
+        <li><a href="/page">Example21</a></li>
+    </ol>
+    <h1>HTML form</h1>
+
+    <form action="/"
+      method="POST">
+
+      <label>
+        1. Your name:<br />
+        <input name="name"
+        placeholder="Ivan Ivanov" />
+      </label><br />
+
+      <label>
+        2. Your email:<br />
+        <input name="email"
+          type="email"
+          placeholder="user@example.com" />
+      </label><br />
+
+      <label>
+        3. Date of birth:<br />
+        <input name="date"
+          value="2022-09-09"
+          type="date" />
+      </label><br />
+
+        4. Your civility:<br/>
+      <label><input type="radio" checked="checked"
+        name="civility" value="female" />
+        female</label>
+      <label><input type="radio"
+        name="civility" value="male" />
+        male</label><br />
+        5. Number of limbs:<br/>
+      <label><input type="radio" checked="checked"
+        name="bodyparts" value="2" />
+        2</label>
+      <label><input type="radio"
+        name="bodyparts" value="3" />
+        3</label><br />
+      <label><input type="radio"
+        name="bodyparts" value="4" />
+        4</label><br />
+      <label><input type="radio"
+        name="bodyparts" value="cannot count" />
+        cannot count</label><br />
+      <label>
+        6. Your superpower (pick one or more):
+        <br />
+        <select name="superpower"
+            multiple="multiple">
+            <option value="none" selected="selected">none</option>
+            <option value="immortality">immortality</option>
+            <option value="invisibility">invisibility</option>
+            <option value="levitation">levitation</option>
+        </select>
+        </label><br />
+      <label>
+       7. Your biography:<br />
+        <textarea name="field-name-2">Enter here</textarea>
+        </label><br />
+        
+      8.<label><input type="checkbox" checked="checked"
+        name="check" />
+        read and understood</label>
+
+      <input type="submit" value="Send" />
+    </form>
+</body>
+</html>
